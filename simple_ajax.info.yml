@@ -1,0 +1,6 @@
+name: Simple Ajax
+description: Simple ajax example
+package: Custom
+
+type: module
+core: 8.x

@@ -1,0 +1,22 @@
+simple_ajax.list:
+  path: '/ajax_list'
+  defaults:
+    _controller: '\Drupal\simple_ajax\Controller\AjaxController::ajax'
+    _title: 'Ajax list'
+  requirements:
+    _permission: 'access content'
+
+simple_ajax.ajax_link_callback:
+  path: '/exampleccs'
+  defaults:
+    _controller: '\Drupal\simple_ajax\Controller\AjaxController::AjaxLinkCallback'
+  requirements:
+    _permission: 'access content'
+
+simple_ajax.form:
+  path: '/ajax_form'
+  defaults:
+    _form: '\Drupal\simple_ajax\Form\AjaxForm'
+    _title: 'Ajax form'
+  requirements:
+    _permission: 'access content'
